@@ -53,3 +53,8 @@ Then, select “Comparison Table.”
 Click “Get Analysis” and ensure the results display correctly in the new format.
 
 
+# 2. Build with AI: Brand builder app to visualize any product
+
+
+
+
