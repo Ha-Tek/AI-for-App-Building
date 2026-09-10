@@ -4,7 +4,8 @@ Build three different apps: a tie-breaker app to help you make difficult decisio
 Use Google AI Studio https://aistudio.google.com/
 
 This is a hands-on project developed as part of a Coursera course.
+You'll learn how to vibe code. You will use natural language to create a functional app to solve a specific business problem.
+
 
 # 1. Build with AI: Tie breaker app for better decision making
 
-You'll learn how to vibe code. You will use natural language to create a functional app to solve a specific business problem.
