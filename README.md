@@ -55,6 +55,8 @@ Click “Get Analysis” and ensure the results display correctly in the new for
 
 # 2. Build with AI: Brand builder app to visualize any product
 
+It teaches how to vibe code using natural language to create a functional app to solve a specific business problem.
+
 
 
 
