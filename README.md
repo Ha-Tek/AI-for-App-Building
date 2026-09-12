@@ -194,6 +194,5 @@ Organize the code into modular components for the 11 methods, matrix validation,
 
 **Important:** Do not substitute generic matrix-completion techniques for the 11 methods in the paper. Preserve the paper's equations, assumptions, and calculation procedures.
 
-- Result: browse the following url:
-- 
-https://aistudio.google.com/apps/01782b1b-d42d-494e-9e45-976704c57287?showAssistant=true&showPreview=true
+- Result deployed: 
+  https://aistudio.google.com/apps/01782b1b-d42d-494e-9e45-976704c57287?showAssistant=true&showPreview=true
