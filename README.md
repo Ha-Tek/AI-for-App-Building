@@ -149,3 +149,47 @@ and click “Ok.” This will automatically add a screenshot with your feedback 
 Click the “Send prompt” button and the model will read your visual feedback and update the app's code accordingly.
 
 Once the model has updated the app. observe how it has changed the specific elements you pointed out (like the "KPI cards") and applies the visual changes without you needing to explain the technical details.
+
+
+# 4. Build with AI: AHP calculator for incomplete pairwise comparison matrices
+Prompt with Gemini the following:
+
+Act as an expert in **AHP, numerical methods, and web application development**.
+
+Using the **attached research paper as the authoritative source**, build an interactive calculator for **completing incomplete pairwise comparison matrices (PCMs)** using the **11 methods described in the paper**.
+
+### Requirements
+
+1. Extract and correctly implement all 11 methods exactly as presented in the paper.
+2. Allow users to:
+
+   * Enter an incomplete pairwise comparison matrix.
+   * Automatically enforce reciprocal values and diagonal = 1.
+   * Select one method or run all 11 methods.
+3. For each method, calculate:
+
+   * Completed matrix
+   * Estimated missing comparisons
+   * Priority/weight vector
+   * λmax
+   * CI
+   * CR
+   * Consistency status
+4. Build a **visual dashboard** comparing all 11 methods, including:
+
+   * CR comparison
+   * Priority-weight comparison
+   * Estimated missing-value comparison
+   * Final ranking comparison
+5. Highlight methods that pass/fail the CR threshold (default **CR ≤ 0.10**).
+6. Validate the implementation against the **numerical examples in the paper** and report any discrepancies.
+7. Provide clear error handling, calculation details, and warnings for invalid or insufficient input.
+8. Allow results to be exported to **Excel/CSV**.
+
+### Technology
+
+Prefer **Python + Streamlit + NumPy + Pandas + SciPy + Plotly**.
+
+Organize the code into modular components for the 11 methods, matrix validation, consistency calculations, dashboard, and tests.
+
+**Important:** Do not substitute generic matrix-completion techniques for the 11 methods in the paper. Preserve the paper's equations, assumptions, and calculation procedures.
