@@ -152,7 +152,7 @@ Once the model has updated the app. observe how it has changed the specific elem
 
 
 # 4. Build with AI: AHP calculator for incomplete pairwise comparison matrices
-Prompt with Gemini the following:
+Prompt with Gemini in Google AI Studio as  follows:
 
 Act as an expert in **AHP, numerical methods, and web application development**.
 
