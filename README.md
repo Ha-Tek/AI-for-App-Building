@@ -1,5 +1,9 @@
 # AI-for-App-Building
-Build three different apps: a tie-breaker app to help you make difficult decisions, a brand builder app to help you prototype marketing assets, and an interactive dashboard to help you better understand, explore, and make informed decisions with your data. 
+Build three different apps:
+
+- A tie-breaker app to help you make difficult decisions,
+- A brand builder app to help you prototype marketing assets, and
+- An interactive dashboard to help you better understand, explore, and make informed decisions with your data. 
 
 Use Google AI Studio https://aistudio.google.com/
 
@@ -57,6 +61,50 @@ Click “Get Analysis” and ensure the results display correctly in the new for
 
 It teaches how to vibe code using natural language to create a functional app to solve a specific business problem.
 
+Lab tasks:
 
+
+Step 1: Define your app prototype 
+
+Once in AI Studio, make sure you are signed in with your Google account. Next, navigate to “Build AI apps”. In the prompt box on the Build page, describe the Brand builder app:
+
+**I want an app called the Brand builder app that lets me describe a product and imagine it across a bunch of different mediums, this could include a billboard, a newspaper, and a social post. Maintain product consistency between each shot. I do not want to see people in any of the images. You must use the Nano-Banana model for these images.
+**
+
+When you are ready, click the “Build” button.
+
+
+
+Step 2: Run an initial product test 
+
+
+Once the app interface loads, type the product you want to visualize into the product description field: 
+
+**Augmented Reality AI glasses
+**
+
+Then, click the “Generate” button.
+
+If the generation fails or an error message appears, follow the troubleshooting technique in the next step. 
+
+Step 3: Work with AI to troubleshoot 
+
+Sometimes the issue is that the app is trying to use multiple different models and confusing itself. In a situation like that: Click the error button on the bottom right of the window.
+
+Select the errors, copy them, and paste them into the prompt box on the left. 
+
+Then provide feedback to the model by typing a corrective prompt under the errors in the same prompt box:
+
+**Please make sure you do not use any other image models. Use only Gemini 2.5 Flash or Nano-Banana for all steps.
+**
+
+Click the “Send prompt” button to have the model fix its code with your specific instructions.
+
+
+Step 4: Visualize the campaign 
+
+After the fix, re-enter your product idea and click the “Generate” button.
+
+Review the gallery and verify that the product looks consistent across all images and that all original instructions were followed.
 
 
