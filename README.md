@@ -156,7 +156,7 @@ Prompt with Gemini in Google AI Studio as  follows:
 
 Act as an expert in **AHP, numerical methods, and web application development**.
 
-Using the **attached research paper as the authoritative source**, build an interactive calculator for **completing incomplete pairwise comparison matrices (PCMs)** using the **11 methods described in the paper**.
+Using the **attached research paper as the authoritative source (https://www.sciencedirect.com/science/article/pii/S2214716023000076)**, build an interactive calculator for **completing incomplete pairwise comparison matrices (PCMs)** using the **11 methods described in the paper**.
 
 ### Requirements
 
