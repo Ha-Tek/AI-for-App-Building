@@ -2,7 +2,7 @@
 
 Build three practical AI-powered applications using **Google AI Studio**:
 
-* 🧠 **Tie-Breaker App** — Make difficult decisions by comparing options and analyzing pros and cons.
+* 🧠 **Tie-Breaker App** — Make  decisions by comparing options and analyzing pros and cons.
 * 🎨 **Brand Builder App** — Prototype marketing and branding assets with AI.
 * 📊 **Interactive Dashboard** — Explore, understand, and make informed decisions using your data.
 
