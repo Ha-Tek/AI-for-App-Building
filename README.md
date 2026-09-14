@@ -1,61 +1,110 @@
-# AI-for-App-Building
-Build three different apps:
+# 🤖 AI for App Building
 
-- A tie-breaker app to help you make difficult decisions,
-- A brand builder app to help you prototype marketing assets, and
-- An interactive dashboard to help you better understand, explore, and make informed decisions with your data. 
+Build three practical AI-powered applications using **Google AI Studio**:
 
-Use Google AI Studio https://aistudio.google.com/
+* 🧠 **Tie-Breaker App** — Make difficult decisions by comparing options and analyzing pros and cons.
+* 🎨 **Brand Builder App** — Prototype marketing and branding assets with AI.
+* 📊 **Interactive Dashboard** — Explore, understand, and make informed decisions using your data.
 
-This is a hands-on project developed as part of a Coursera course.
-You'll learn how to vibe code. You will use natural language to create a functional app to solve a specific business problem.
+🔗 **Google AI Studio:** https://aistudio.google.com/
+
+> **Hands-on Project:** Developed as part of a Coursera course focused on AI-powered application development and **vibe coding**.
 
 
-# 1. Build with AI: Tie breaker app for better decision making
+Teaches how to use **natural language prompts to build functional applications** that solve specific business problems—without needing to write all the code manually.
 
-Lab tasks:
+---
 
-**Step 1: Define your app 
-**
-Once in AI Studio, navigate to “Build AI apps”. In the prompt box on the Build page, describe the Tiebreaker app: 
+# 1. 🧠 Build with AI: Tie-Breaker App
 
-**I want an app called The Tiebreaker that helps me make decisions. I want to provide a decision that I need to make, and I'd love AI's help in showing me different pros and cons. This can be through a pros and cons list, a comparison table, or even a SWOT analysis.**
+The **Tie-Breaker** app helps users make difficult decisions by using AI to analyze different options through:
 
-When you are ready, click the “Build” button.
+* Pros and Cons
+* Comparison Tables
+* SWOT Analysis
 
-**Step 2: Test your application 
-**
-Once the app interface appears, put it to the test with a real-world scenario.
+## 🛠️ Lab Tasks
 
-Locate the input field (e.g. "What decision do you need to make?"), and enter: 
+### Step 1: Define Your App
 
-**Should I offer my software for free with paid features, or charge a flat $20/month premium plan?
-**
+1. Open **Google AI Studio**.
+2. Navigate to **Build AI apps**.
+3. In the prompt box, describe the application you want to create.
 
-Then, select an analysis type (e.g., Pros and Cons List).
+Use the following prompt:
 
-Click “Get Analysis” and review the results generated. 
+> **I want an app called The Tiebreaker that helps me make decisions. I want to provide a decision that I need to make, and I'd love AI's help in showing me different pros and cons. This can be through a pros and cons list, a comparison table, or even a SWOT analysis.**
 
-**Step 3: Troubleshoot and "Auto-fix" errors 
-**
-If the app breaks, or stops working, don’t start over. This is part of the process. 
+4. Click **Build**.
 
-When an error occurs, you’ll see the error and a button for “Auto-fix” appear in the prompt box on the left. 
+---
 
-Click “Auto fix” and the model will analyze the error, think through the solution, and rewrite the code to fix the bug.
+### Step 2: Test Your Application
 
-**Step 4: Verify the fix 
-**
-After the “Auto-fix” is complete, test the app again to ensure all features are working.
+Once the app interface appears, test it with a real-world decision.
 
-Enter a new decision: 
+1. Locate the input field, such as:
+   `What decision do you need to make?`
 
-**What should I eat tonight: Sushi or Chinese food?
-**
-Then, select “Comparison Table.”
+2. Enter the following decision:
 
-Click “Get Analysis” and ensure the results display correctly in the new format.
+> **Should I offer my software for free with paid features, or charge a flat $20/month premium plan?**
 
+3. Select an analysis type, such as **Pros and Cons List**.
+4. Click **Get Analysis**.
+5. Review the AI-generated results.
+
+---
+
+### Step 3: Troubleshoot and Auto-Fix Errors
+
+If the application breaks or stops working, **don't start over**. Troubleshooting is part of the development process.
+
+When an error occurs:
+
+1. Review the error message.
+2. Look for the **Auto-fix** button in the prompt box on the left.
+3. Click **Auto-fix**.
+
+The AI model will analyze the error, determine a potential solution, and modify the application code to fix the problem.
+
+---
+
+### Step 4: Verify the Fix
+
+After **Auto-fix** completes, test the application again to make sure everything works correctly.
+
+Enter a new decision:
+
+> **What should I eat tonight: Sushi or Chinese food?**
+
+Then:
+
+1. Select **Comparison Table**.
+2. Click **Get Analysis**.
+3. Verify that the results are displayed correctly in the new format.
+
+---
+
+## 🎯 Project Outcome
+
+By completing this lab, you will have built and tested an AI-powered **decision-making application** using natural language prompts and Google AI Studio.
+
+This project demonstrates how **AI-assisted development and vibe coding** can be used to quickly prototype functional applications for real-world business problems.
+
+---
+
+## 🔧 Tools & Technologies
+
+* **Google AI Studio**
+* **Generative AI**
+* **Prompt Engineering**
+* **Vibe Coding**
+* **AI-Assisted Application Development**
+
+## 📚 Course
+
+This project was completed as a **hands-on project as part of a Coursera course**.
 
 # 2. Build with AI: Brand builder app to visualize any product
 
