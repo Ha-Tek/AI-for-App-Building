@@ -106,98 +106,181 @@ This project demonstrates how **AI-assisted development and vibe coding** can be
 
 This project was completed as a **hands-on project as part of a Coursera course**.
 
-# 2. Build with AI: Brand builder app to visualize any product
+# 2. 🎨 Build with AI: Brand Builder App
 
-It teaches how to vibe code using natural language to create a functional app to solve a specific business problem.
+The **Brand Builder** app allows you to describe a product and visualize it across different marketing mediums, such as billboards, newspapers, and social media.
 
-Lab tasks:
+This project demonstrates how to use **vibe coding and natural language** to create a functional application that solves a specific business problem.
 
+## 🛠️ Lab Tasks
 
-Step 1: Define your app prototype 
+### Step 1: Define Your App Prototype
 
-Once in AI Studio, make sure you are signed in with your Google account. Next, navigate to “Build AI apps”. In the prompt box on the Build page, describe the Brand builder app:
+1. Sign in to **Google AI Studio** with your Google account.
+2. Navigate to **Build AI apps**.
+3. In the prompt box, describe the Brand Builder application.
 
-**I want an app called the Brand builder app that lets me describe a product and imagine it across a bunch of different mediums, this could include a billboard, a newspaper, and a social post. Maintain product consistency between each shot. I do not want to see people in any of the images. You must use the Nano-Banana model for these images.
-**
+Use the following prompt:
 
-When you are ready, click the “Build” button.
+> **I want an app called the Brand builder app that lets me describe a product and imagine it across a bunch of different mediums, this could include a billboard, a newspaper, and a social post. Maintain product consistency between each shot. I do not want to see people in any of the images. You must use the Nano-Banana model for these images.**
 
+4. Click **Build**.
 
+---
 
-Step 2: Run an initial product test 
+### Step 2: Run an Initial Product Test
 
+Once the application interface loads:
 
-Once the app interface loads, type the product you want to visualize into the product description field: 
+1. Locate the **Product Description** field.
+2. Enter:
 
-**Augmented Reality AI glasses
-**
+> **Augmented Reality AI glasses**
 
-Then, click the “Generate” button.
+3. Click **Generate**.
+4. Review the generated images.
 
-If the generation fails or an error message appears, follow the troubleshooting technique in the next step. 
+If generation fails or an error message appears, proceed to the troubleshooting step below.
 
-Step 3: Work with AI to troubleshoot 
+---
 
-Sometimes the issue is that the app is trying to use multiple different models and confusing itself. In a situation like that: Click the error button on the bottom right of the window.
+### Step 3: Work with AI to Troubleshoot
 
-Select the errors, copy them, and paste them into the prompt box on the left. 
+Sometimes an application may attempt to use multiple image-generation models, which can cause errors or unexpected behavior.
 
-Then provide feedback to the model by typing a corrective prompt under the errors in the same prompt box:
+To troubleshoot:
 
-**Please make sure you do not use any other image models. Use only Gemini 2.5 Flash or Nano-Banana for all steps.
-**
+1. Click the **Error** button in the bottom-right corner of the window.
+2. Select and copy the error messages.
+3. Paste the errors into the prompt box on the left.
+4. Add a corrective instruction below the errors:
 
-Click the “Send prompt” button to have the model fix its code with your specific instructions.
+> **Please make sure you do not use any other image models. Use only Gemini 2.5 Flash or Nano-Banana for all steps.**
 
+5. Click **Send prompt**.
 
-Step 4: Visualize the campaign 
+The AI will analyze the errors and update the application code based on your instructions.
 
-After the fix, re-enter your product idea and click the “Generate” button.
+---
 
-Review the gallery and verify that the product looks consistent across all images and that all original instructions were followed.
+### Step 4: Visualize the Campaign
 
+After the application has been fixed:
 
-# 3. Build with AI: Interactive dashboard to uncover data insights
+1. Re-enter your product idea.
+2. Click **Generate**.
+3. Review the generated image gallery.
 
-Lab tasks:
+Verify that:
 
-Step 1: Define your app prototype 
+* ✅ The product remains visually consistent across all images.
+* ✅ The images represent different marketing mediums.
+* ✅ No people appear in the images.
+* ✅ The requested AI models and instructions were followed.
 
-Once in AI Studio, make sure you are signed in with your Google account. Next, navigate to “Build AI apps”. In the prompt box on the Build page, describe the Interactive dashboard app: 
+---
 
-**I want to make an interactive dashboard that allows me to visualize data in many different ways. I am going to provide the data for you, so please set up the dashboard with it accurately.
-**
+## 🎯 Project Outcome
 
-Step 2: Explore and filter your data 
+By completing this lab, you will have created an AI-powered **Brand Builder application** capable of generating consistent product visuals for different marketing channels.
 
-Once AI Studio generates the app, test its interactivity.
+This demonstrates how **vibe coding, natural language, and generative AI** can be combined to rapidly prototype marketing solutions.
+
+---
+
+# 3. 📊 Build with AI: Interactive Dashboard
+
+The **Interactive Dashboard** application allows users to visualize, explore, filter, and analyze data through interactive charts and tables.
+
+This project demonstrates how AI can be used to create a functional data visualization application using **natural language instructions**.
+
+## 🛠️ Lab Tasks
+
+### Step 1: Define Your App Prototype
+
+1. Sign in to **Google AI Studio** with your Google account.
+2. Navigate to **Build AI apps**.
+3. In the prompt box, describe the Interactive Dashboard application.
+
+Use the following prompt:
+
+> **I want to make an interactive dashboard that allows me to visualize data in many different ways. I am going to provide the data for you, so please set up the dashboard with it accurately.**
+
+4. Provide your data to the application.
+
+---
+
+### Step 2: Explore and Filter Your Data
+
+Once AI Studio generates the application, test its interactive features.
 
 For example:
 
-Observe how the model automatically created different chart types (e.g., pie charts, line graphs, and data tables).
+1. Observe the automatically generated visualizations, such as:
 
-Use the auto-generated filters to drill down into specific data points (e.g., filter by a specific product like "Premium Tailored Trousers").
+   * 📊 Pie charts
+   * 📈 Line graphs
+   * 📋 Data tables
 
-Verify that the charts update in real-time as you change the filters.
+2. Use the automatically generated filters to explore specific data points.
 
-Step 3: Iterate on the design and layout
+For example, filter the data by:
 
-If you want to change the design or layout, you can manually add your feedback onto the app. 
+> **Premium Tailored Trousers**
 
-Click the “Annotate app” button in the prompt box.
+3. Verify that the charts and tables update dynamically when the filters are changed.
 
-Use the comment tool to highlight a specific area (e.g., draw a box around the KPI cards).
+---
 
-Type a design request, such as:
+### Step 3: Iterate on the Design and Layout
 
-**Let's make these cards white
-**
+AI Studio also allows you to provide **visual feedback** directly on the application.
 
-and click “Ok.” This will automatically add a screenshot with your feedback into the prompt box.
+To modify the design:
 
-Click the “Send prompt” button and the model will read your visual feedback and update the app's code accordingly.
+1. Click **Annotate app** in the prompt box.
+2. Use the comment tool to highlight the area you want to change.
 
-Once the model has updated the app. observe how it has changed the specific elements you pointed out (like the "KPI cards") and applies the visual changes without you needing to explain the technical details.
+For example, draw a box around the **KPI cards**.
+
+3. Add a design instruction:
+
+> **Let's make these cards white.**
+
+4. Click **OK**.
+
+AI Studio will automatically add a screenshot containing your visual feedback to the prompt box.
+
+5. Click **Send prompt**.
+
+The model will interpret your visual feedback and update the application's code accordingly.
+
+---
+
+### Step 4: Verify the Design Changes
+
+After the model updates the application:
+
+1. Review the modified dashboard.
+2. Check the specific elements you highlighted.
+3. Verify that the **KPI cards** have been updated according to your instructions.
+4. Test the dashboard again to make sure the functionality still works correctly.
+
+The key advantage is that you can communicate **design changes visually and in natural language** without needing to describe the underlying technical implementation.
+
+---
+
+## 🎯 Project Outcome
+
+By completing this lab, you will have created an interactive **data visualization dashboard** that can:
+
+* 📊 Display data using multiple visualization types
+* 🔎 Filter and explore specific data
+* 🔄 Dynamically update visualizations
+* 🎨 Accept visual design feedback
+* 🤖 Use AI to modify application code
+
+This project demonstrates how **AI-assisted development and vibe coding** can simplify the process of building interactive data applications.
 
 
 # 4. Build with AI: AHP calculator for incomplete pairwise comparison matrices
